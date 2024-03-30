@@ -9,7 +9,7 @@ const FilterBtn = () => {
         dispatch(filterTodo(filter));
     }
     return (
-        <div className="flex space-x-4 items-center">
+        <div className="flex flex-col gap-3 md:flex-row  space-x-4 items-center">
             <select
                 value={currentFilter}
                 onChange={(e) => handleFilter(e.target.value)}

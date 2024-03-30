@@ -12,6 +12,6 @@ const persistConfig = {
 
 const persistReducerr = persistReducer(persistConfig, todoReducer)
 const store = createStore(persistReducerr, composeWithDevTools());
-const persistor = persistStore(store)
+const persistor = persistStore(store) // persistor is for store the data in local storage
 export default store;
 export { persistor }

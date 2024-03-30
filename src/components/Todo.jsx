@@ -47,7 +47,7 @@ const Todo = () => {
                 </button>
             </div>
             {/* search */}
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-3 md:flex-row items-center justify-between">
                 <FilterBtn />
                 <div className="flex items-center mb-4">
                     <input
