@@ -1,7 +1,7 @@
 # My-todo
-Type:   Front-end
-Description:  This is a simple responsive task management site. Displays a list of tasks.
-Allows users to add, edit, complete, and delete tasks.
+ Type:Front-end
+ Description:  This is a simple responsive task management site. Displays a list of tasks.
+ Allows users to add, edit, complete, and delete tasks.
 Technology: React, Tailwind CSS, redux
 Links: Live, Github 
 # Project setup process
